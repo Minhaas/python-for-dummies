@@ -1,0 +1,41 @@
+Welcome to this new section!
+
+If during this section you encounter an error when you try to execute Python, know that it may be due to two common reasons whose solutions are given below. If you have an issue  that is not included below, feel free to raise a question in the Q&A.
+
+Question 1. When I run python basics.py on Windows, I get the error:
+
+'python' is not recognized as an internal or external command operable program or batch file
+
+Solution 1: If you are using Visual Studio Code, try restarting Visual Studio Code and then try running python basics.py again. If it doesn't work, go to Solution 2 below.
+
+Solution 2: Try uninstalling Python and then install it again, but this time make sure that the option Add Python to Path is marked as checked during the installation process.
+
+Solution 3: Use py -3 basics.py instead of python basics.py. It does the same thing.
+
+Solution 4: If you think Python was installed but it still doesn't start, then it might be a problem with the environment variables. Please see this link to fix that: https://projects.raspberrypi.org/en/projects/using-pip-on-windows/4
+
+
+
+Question 2. When I run python3 basics.py I get the error:
+
+>>> python3 basics.py
+File "<stdin>", line 1
+python3 basics.py
+                         ^
+SyntaxError: invalid syntax
+Solution: You are trying to execute the command python3 basics.py inside a Python shell. Type exit() and press Enter to exit the Python shell and get back to the terminal. Then execute python3 basics.py again on the terminal.
+
+The basics - A small program
+
+Here is a summary of what you learned in this section:
+
+Python 3 and the Visual Studio Code IDE is used in the videos, but you can use any IDE.
+
+The Python interactive shell (shown with >>>) is a quick way to execute Python code to see how it works.
+
+Python programs are written in .py files.
+
+You can make a program that shows the current date and time using these lines of code:
+
+import datetime
+print("The date and time is ", datetime.datetime.now())
