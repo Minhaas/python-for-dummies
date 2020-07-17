@@ -10,3 +10,9 @@ mylen = len(student_grades)
 meanValue = mySum/mylen
 print("Average grade is: ",meanValue)
 
+seconds = [1.2323442655, 1.4534345567, 1.023458894]
+current = 1.10001399445
+#Append current to list 
+
+seconds.append(current)
+print("Appended list is: ",seconds)
